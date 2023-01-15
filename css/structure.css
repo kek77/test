@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@300&display=swap");
+
+.btn {
+  background-color: white;
+  color: #bcbcbc;
+  border: 5px solid #bcbcbc;
+  font-size: 1.125em;
+  letter-spacing: 0px;
+  padding: 10px 60px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0px;
+  transition: all 0.5s;
+  right: 40px;
+  font-family: "Do Hyeon", sans-serif;
+  bottom: 0px;
+  border-left: none;
+}
+.btn:hover {
+  background: white;
+  color: #e1e1e1;
+  transition: all 0.5s;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: -5px;
+  margin-left: -5px;
+  margin-right: 5px;
+
+}
+.btn:active{
+  transition: 0s;
+  padding-bottom: -5px;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: all 0.5s;
+  box-shadow: none;
+  border-top: 5px solid #bcbcbc !important;
+
+}
+.btn2 {
+  background-color: white;
+  color: #bcbcbc;
+  border: 5px solid #bcbcbc;
+  font-size: 1.125em;
+  letter-spacing: 0px;
+  padding: 10px 60px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0px;
+  transition: all 0.5s;
+  left: 40px;
+  font-family: "Do Hyeon", sans-serif;
+  bottom: 0px;
+  border-right: none;
+}
+.btn2:hover {
+  background: white;
+  color: #e1e1e1;
+  transition: 0s;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: -5px;
+  margin-left: 5px;
+  margin-right: -5px;
+  transition: all 0.5s;
+
+}
+.btn2:active{
+  margin-top: -5px;
+  margin-bottom: 5px;
+  margin-left: -5px;
+  margin-right: 5px;
+  transition: all 0.5s;
+  box-shadow: none;
+  transition: all 0.5s;
+}
+
+#container {
+  background-color: #ffffff;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+  height: 380;
+  text-align: center center;
+  width: auto;
+  padding: 0px;
+  border-top: 5px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+strong {
+  background-color: #ffffff;
+  width: 600px;
+  height: 590px;
+  color: #bcbcbc;
+  font-style: bold;
+  display: flex;
+  justify-content: center;
+  margin: none;
+  font-family: "Do hyeon", sans-serif;
+  margin-top: 3%;
+  text-align: center;
+  line-height: 500px;
+  font-size: 200px;
+  position: relative;
+  z-index: 10px;
+  margin-top: 0px;
+  top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  letter-spacing: 8px;
+}
+li {
+  list-style-image: linear-gradient(to top bottom, blue, white);
+}
+nav {
+  background-color: blueviolet;
+  width: 100%;
+  height: 20px;
+}
+body {
+  margin: 0px;
+  border: none;
+}
+#left-sider {
+  width: auto;
+  height: 100%;
+  background-color: linear-gradient(top right, #bcbcbc, black);
+  float: left;
+}
+#right-sider {
+  width: 250px;
+  height: 800px;
+  background-color: #888;
+  float: right;
+  margin: 50%;
+}
+#btn3 {
+  background-color: white;
+  color: #bcbcbc;
+  border: 5px solid #bcbcbc;
+  font-size: 1.125em;
+  letter-spacing: 0px;
+  padding: 10px 60px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0px;
+  transition: all 0.5s;
+  font-family: "Do Hyeon", sans-serif;
+  bottom: 0px;
+  border-left: none;
+  border-right: none;
+  justify-content: center;
+  margin: 0px;
+}
+#btn3:hover {
+  background: white;
+  color: #e1e1e1;
+  transition: all 0.5s;
+}
+#btn3:active{
+  transition: 0s;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: -5px;
+}
