@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="structure.css" />
+    <title>배수</title>
+    <script src="calculate.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+      .btn {
+        background-color: #ffffff;
+        color: #888;
+        border: none;
+        font-size: 1.125em;
+        letter-spacing: 0px;
+        padding: 10px 60px;
+        cursor: pointer;
+        display: inline-block;
+        margin: 3px 10px;
+        transition: all 0.5s;
+        font-family: "Do Hyeon", sans-serif;
+      }
+      .btn:hover {
+        background: rgb(0, 255, 132);
+        color: red;
+        transition: all 0.5s;
+      }
+      .btn2 {
+        background-color: #ff0000;
+        color: rgb(255, 255, 255);
+        border: 1px solid #a1a1a1;
+        font-size: 1.125em;
+        letter-spacing: 0px;
+        padding: 10px 60px;
+        cursor: pointer;
+        display: inline-block;
+        margin: 3px 10px;
+        transition: all 0.5s;
+        left: 40px;
+        border: none;
+        font-family: "Do Hyeon", sans-serif;
+      }
+      .btn2:hover {
+        background: #ffffff;
+        color: rgb(255, 0, 0);
+        transition: all 0.5s;
+      }
+      #container {
+        background-color: #e1e1e1;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        height: 390;
+        border-top: 5px solid#bcbcbc;
+        text-align: center center;
+        width: 45%;
+      }
+      h1 {
+        background: linear-gradient(to top, #e1e1e1, black 80%);
+        width: 45%;
+        height: 608px;
+        color: #ffffff;
+        font-style: bold;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        font-family: "Do hyeon", sans-serif;
+        margin-top: 3%;
+        text-align: center;
+        line-height: 300px;
+        font-size: 200px;
+        position: relative;
+        z-index: 10px;
+        margin-top: 1px;
+      }
+      ul {
+        list-style-type: none;
+      }
+      li {
+        display: inline;
+      }
+      nav {
+        background-color: blueviolet;
+        width: 100%;
+        height: 20px;
+      }
+      body {
+        background-color: #bcbcbc;
+      }
+      #left-sider {
+        width: 250px;
+        height: 800px;
+        background-color: #888;
+        float: left;
+      }
+      #right-sider {
+        width: 250px;
+        height: 800px;
+        background-color: #888;
+        float: right;
+        margin: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      <strong>
+        <b>
+          <b>테스트</b>
+        </b>
+      </strong>
+    </h1>
+    <div id="container">
+      <button type="submit" class="btn2" onclick="window.close()">
+        <h2>창 닫 기</h2>
+      </button>
+      <button type="submit" class="btn" onclick="doAction()">
+        <h2>시도하기</h2>
+      </button>
+      <script>
+        function doAction() {
+          while (true) {
+            var x = prompt("입력");
+            var y = prompt("입력");
+            if (x !== null) {
+              if (y !== null) {
+                if (y % x === 0) {
+                  alert(x + "의 배수임");
+                  break;
+                }
+              }
+            } 
+            else {
+              alert("취소됨");
+              break;
+            }
+          }
+        }
+      </script>
+    </div>
+  </body>
+</html>
